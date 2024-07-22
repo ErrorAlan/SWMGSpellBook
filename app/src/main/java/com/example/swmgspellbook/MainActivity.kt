@@ -16,9 +16,9 @@ import com.example.swmgspellbook.ui.theme.SWMGSpellBookTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
         setContent {
-            //github test
+            Navigation()
         }
     }
 }
