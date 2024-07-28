@@ -1,4 +1,6 @@
-package com.example.swmgspellbook
+package com.example.swmgspellbook.homeScreen.data
+
+import com.example.swmgspellbook.R
 
 class Applist {
     fun getAllApps(): List<App> {
@@ -29,7 +31,7 @@ class Applist {
                 appDescription = "Easiest game I've ever programmed, not sure what all the fuss was about"
             ),
             App(
-                name = "Default for testing",
+                name = "Interval Sprint Trainer",
                 iconID = R.drawable.ic_default,
                 appDescription = "Lorem ipsum and all that shit, He's not the messiah! He's a very naughty boy!"
             ),
@@ -43,21 +45,7 @@ class Applist {
                 iconID = R.drawable.ic_default,
                 appDescription = "Lorem ipsum and all that shit, He's not the messiah! He's a very naughty boy!"
             ),
-            App(
-                name = "Default for testing",
-                iconID = R.drawable.ic_default,
-                appDescription = "Lorem ipsum and all that shit, He's not the messiah! He's a very naughty boy!"
-            ),
-            App(
-                name = "Default for testing",
-                iconID = R.drawable.ic_default,
-                appDescription = "Lorem ipsum and all that shit, He's not the messiah! He's a very naughty boy!"
-            ),
-            App(
-                name = "Default for testing",
-                iconID = R.drawable.ic_default,
-                appDescription = "Lorem ipsum and all that shit, He's not the messiah! He's a very naughty boy!"
-            )
+
         )
     }
 }
